@@ -57,6 +57,27 @@ For example: install all themes
 ./install.sh -t all -s all
 ```
 
+### Duo Wallpaper for GNOME Light/Dark mode
+
+I have created these custom wallpapers myself, using the original art of [Ikhimaz](https://www.artstation.com/ikhimaz).
+
+This theme supports different wallpapers for light and dark modes.
+
+To install you can manually copy the files on`/src/wallpaper/eva_rebuild_wallpaper` to `/home/$USER/.local/share/gnome-background-properties/` or `/usr/share/gnome-background-properties/`
+
+You can use these commands to automatically do that.
+
+Install wallpaper as local user:
+
+    cd ~
+    mkdir -p .local/share/gnome-background-properties/
+    cp -a src/wallpaper/eva_rebuild_wallpaper/. /home/$USER/.local/share/gnome-background-properties/
+
+Install as root for all users:
+
+    sudo cp -a src/wallpaper/eva_rebuild_wallpaper/. /usr/share/gnome-background-properties/
+
+
 ### Showcase
 ![2](./src/EVA_showcase.jpg)
 
