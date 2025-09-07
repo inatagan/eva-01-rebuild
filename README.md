@@ -1,8 +1,9 @@
-## Layan-gtk-theme
+## EVA-01-Rebuild
 
-![1](https://images.pling.com/img/00/00/32/24/44/1309214/7a86d212835c855e62ca9725c0031e6202ae.jpg)
+![1](./src/eva_light_dark_demo.jpg)
+<sup>*Light and Dark themes*</sup>
 
-Layan is a flat Material Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie, etc.
+EVA-01 Rebuild ~~Layan~~ is a flat Material Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Budgie, etc. *This is a fork based on the Layan Theme.*
 
 ## Info
 
@@ -55,4 +56,28 @@ For example: install all themes
 ```sh
 ./install.sh -t all -s all
 ```
+
+### Duo Wallpaper for GNOME Light/Dark mode
+
+I have created these custom wallpapers myself, using the original art of [Ikhimaz](https://www.artstation.com/ikhimaz).
+
+This theme supports different wallpapers for light and dark modes.
+
+To install you can manually copy the files on`/src/wallpaper/eva_rebuild_wallpaper` to `/home/$USER/.local/share/gnome-background-properties/` or `/usr/share/gnome-background-properties/`
+
+You can use these commands to automatically do that.
+
+Install wallpaper as local user:
+
+    cd ~
+    mkdir -p .local/share/gnome-background-properties/
+    cp -a src/wallpaper/eva_rebuild_wallpaper/. /home/$USER/.local/share/gnome-background-properties/
+
+Install as root for all users:
+
+    sudo cp -a src/wallpaper/eva_rebuild_wallpaper/. /usr/share/gnome-background-properties/
+
+
+### Showcase
+![2](./src/EVA_showcase.jpg)
 
