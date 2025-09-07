@@ -923,8 +923,10 @@ StScrollBar {
   background-color: $panel_bg_color;
   transition-duration: 250ms;
   font-weight: bold;
-  height: 2.2em;
+  height: 2.4em;
   border: none;
+  border-radius: 0 0 14px 14px;
+  margin-bottom: 4px;
   box-shadow: none;
   @extend %numeric;
 
