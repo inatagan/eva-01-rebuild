@@ -6,6 +6,10 @@
 @import '_palette.scss';
 @import '_default-colors.scss';
 
+@function fade($c) {
+    @return mix($c, $purple_3, 50%);
+}
+
 
 // global colors
 $base_color: if($variant == 'light', $light_1, $_base_color_dark);
@@ -21,7 +25,7 @@ $system_base_color: $_base_color_dark;
 $system_fg_color: $_base_color_light;
 
 // panel colors
-$panel_bg_color: if($variant == 'light', $_base_color_light, $dark_5);
+$panel_bg_color: if($variant == 'light', $_base_color_light, fade($purple_3));
 $panel_fg_color: if($variant == 'light', $_base_color_dark, $light_1);
 
 // card elements

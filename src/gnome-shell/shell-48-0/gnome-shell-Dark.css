@@ -2579,9 +2579,9 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 /* Top Bar */
 #panel {
-  background-color: #000000;
+  background-color: #9141ac;
   font-weight: bold;
-  height: 2.5em;
+  height: 2.4em;
   transition-duration: 250ms;
 }
 
@@ -3693,7 +3693,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .app-folder-dialog-container {
-  padding-top: 2.5em;
+  padding-top: 2.4em;
 }
 
 .app-folder-dialog {
@@ -4839,7 +4839,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #dashtodockContainer #dash .dash-background {
-  background-color: #000000;
+  background-color: #9141ac;
   padding: 12px;
 }
 
@@ -4937,7 +4937,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #dashtodockContainer.extended #dash .dash-background {
-  background-color: #000000;
+  background-color: #9141ac;
   padding: 0;
   margin: 0;
 }
@@ -4952,11 +4952,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #dashtodockContainer.opaque #dash .dash-background {
-  background-color: black;
+  background-color: #9141ac;
 }
 
 #dashtodockContainer.transparent #dash .dash-background {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(145, 65, 172, 0.75);
 }
 
 #dashtodockContainer.opaque:overview #dash, #dashtodockContainer.transparent:overview #dash {

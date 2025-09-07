@@ -2581,7 +2581,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 #panel {
   background-color: whitesmoke;
   font-weight: bold;
-  height: 2.5em;
+  height: 2.4em;
   transition-duration: 250ms;
 }
 
@@ -3693,7 +3693,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .app-folder-dialog-container {
-  padding-top: 2.5em;
+  padding-top: 2.4em;
 }
 
 .app-folder-dialog {
